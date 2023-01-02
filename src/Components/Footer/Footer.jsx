@@ -7,28 +7,12 @@ import CalculateIcon from '@mui/icons-material/Calculate'
 import PetsIcon from '@mui/icons-material/Pets'
 
 const Footer = (props) => {
-    const [page, setPage] = useState('')
-
-    useEffect(() => {
-        const url = window.location.href.split('/')
-        const p = url[url.length - 1]
-        if (p.length === 0) {
-            setPage('home')
-        } else {
-            setPage(p)
-        }
-    }, [])
+    const { page, setPage } = props
 
     const onMenuItemClick = (p) => {
         setPage(p)
-        if (p === 'home') {
-            window.location.replace('/')
-        } else {
-            console.log('mk wiwi:', window.location)
-            // window.location.replace(`/mackie-portfolio/${p}`)
-        }
     }
-    console.log('mk pages:', page)
+
     return (
         <div className="footer">
             <div className="footer__content">

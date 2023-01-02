@@ -18,7 +18,6 @@ const Resume = (props) => {
     const handleClose = () => setOpen(false)
 
     const onSelectSection = (section) => {
-        console.log('mk section:', section)
         setResumeSection(section.toLowerCase())
         setOpen(false)
     }

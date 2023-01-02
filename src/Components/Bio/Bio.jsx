@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './Bio.scss'
 import biodata from '../../Data/biodata.json'
 import EmailIcon from '@mui/icons-material/Email'
@@ -6,11 +6,11 @@ import CallIcon from '@mui/icons-material/Call'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 
 const Bio = (props) => {
-    const mackieImgUrl = 'images/mackie.png'
+    const mackieImgUrl = '/images/mackie.png'
     const citImgUrl = 'images/cit.png'
     const wesImgUrl = 'images/wes.png'
     const wesCertUrl = 'certificates/wes_cert.pdf'
-    console.log('mk oie:', biodata)
+
     return (
         <div className="bio">
             <div className="bio__about-me">
