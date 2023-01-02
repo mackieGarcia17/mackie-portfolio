@@ -24,6 +24,7 @@ const Footer = (props) => {
         if (p === 'home') {
             window.location.replace('/')
         } else {
+            console.log('mk wiwi:', window.location)
             window.location.replace(`/mackie-portfolio/${p}`)
         }
     }
