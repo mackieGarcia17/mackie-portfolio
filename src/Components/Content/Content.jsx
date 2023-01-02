@@ -10,7 +10,7 @@ const Content = (props) => {
         <div className="content">
             <HashRouter>
                 <Routes>
-                    <Route path="/mackie-portfolio/" element={<Bio />} />
+                    <Route path="/" element={<Bio />} />
                     <Route path="/mackie-portfolio/resume" element={<Resume />} />
                     <Route path="/mackie-portfolio/hobbies" element={<Hobbies />} />
                 </Routes>
