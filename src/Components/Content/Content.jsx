@@ -10,8 +10,8 @@ const Content = (props) => {
         <div className="content">
             <HashRouter>
                 <Routes>
-                    <Route exact path="/mackie-portfolio/" element={<Bio />} />
-                    <Route path="/mackie-portfolio/resume" component={Resume} />
+                    <Route path="/mackie-portfolio/" element={<Bio />} />
+                    <Route path="/mackie-portfolio/resume" element={<Resume />} />
                     <Route path="/mackie-portfolio/hobbies" element={<Hobbies />} />
                 </Routes>
             </HashRouter>
