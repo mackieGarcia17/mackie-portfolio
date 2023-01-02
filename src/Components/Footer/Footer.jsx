@@ -27,7 +27,7 @@ const Footer = (props) => {
             window.location.replace(`/${p}`)
         }
     }
-    console.log('mk page:', page)
+    console.log('mk pages:', page)
     return (
         <div className="footer">
             <div className="footer__content">

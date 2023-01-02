@@ -10,7 +10,7 @@ const Bio = (props) => {
     const citImgUrl = 'images/cit.png'
     const wesImgUrl = 'images/wes.png'
     const wesCertUrl = 'certificates/wes_cert.pdf'
-
+    console.log('mk oie:', biodata)
     return (
         <div className="bio">
             <div className="bio__about-me">
