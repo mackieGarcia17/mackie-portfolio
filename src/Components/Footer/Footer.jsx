@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './Footer.scss'
 import { IconButton } from '@mui/material'
 import HomeIcon from '@mui/icons-material/Home'
@@ -10,7 +10,6 @@ const Footer = (props) => {
     const { page, setPage } = props
 
     const onMenuItemClick = (p) => {
-        console.log('mk p:', p)
         setPage(p)
     }
 

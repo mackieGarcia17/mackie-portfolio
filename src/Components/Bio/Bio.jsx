@@ -6,7 +6,7 @@ import CallIcon from '@mui/icons-material/Call'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 
 const Bio = (props) => {
-    const mackieImgUrl = '/images/mackie.png'
+    const mackieImgUrl = 'images/mackie.png'
     const citImgUrl = 'images/cit.png'
     const wesImgUrl = 'images/wes.png'
     const wesCertUrl = 'certificates/wes_cert.pdf'
