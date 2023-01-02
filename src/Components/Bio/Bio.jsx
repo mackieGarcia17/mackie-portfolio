@@ -17,10 +17,10 @@ const Bio = (props) => {
                 <img src={mackieImgUrl} alt="Epimaco Daniel H Garcia" />
                 <div className="bio__about-me__text">
                     <p>
-                        Hi, My name is <b>{biodata.fullname}</b>.
+                        Hi, my name is <b>{biodata.fullname}</b>.
                     </p>
                     <p>
-                        I am currently residening in <b>{biodata.address}</b>.
+                        I am currently residing in <b>{biodata.address}</b>.
                     </p>
                     <p>This site will serve as my simple portfolio.</p>
                     <br />
