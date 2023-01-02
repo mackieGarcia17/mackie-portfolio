@@ -1,0 +1,20 @@
+[
+    {
+        "name": "David Israel Gulane ",
+        "company": "Ripeconcepts",
+        "email": "gulanedavid@gmail.com ",
+        "position": "Backend Developer"
+    },
+    {
+        "name": "Frankie Alvarado ",
+        "company": "VisibilityOne",
+        "email": "frankie@visibility.one ",
+        "position": "Chief Technology Officer "
+    },
+    {
+        "name": "Geff Henderson Chang ",
+        "company": "Accenture",
+        "email": "geff.h.n.chang@accenture.com",
+        "position": "Advanced App Engineering Associate Manager"
+    }
+]
