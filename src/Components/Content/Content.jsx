@@ -6,11 +6,12 @@ import Hobbies from '../Hobbies/Hobbies'
 
 const Content = (props) => {
     const { page } = props
+    console.log('mk pppp:', page)
     return (
         <div className="content">
             {page === 'home' && <Bio />}
             {page === 'resume' && <Resume />}
-            {page === 'hobbies ' && <Hobbies />}
+            {page === 'hobbies' && <Hobbies />}
         </div>
     )
 }

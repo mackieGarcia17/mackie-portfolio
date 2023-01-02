@@ -10,6 +10,7 @@ const Footer = (props) => {
     const { page, setPage } = props
 
     const onMenuItemClick = (p) => {
+        console.log('mk p:', p)
         setPage(p)
     }
 
