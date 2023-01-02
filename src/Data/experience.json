@@ -1,0 +1,69 @@
+[
+    {
+        "companySite:": "https://ripeconcepts.com/",
+        "companyImgUrl": "images/ripe.jpg",
+        "companyName": "RipeConcepts, Inc",
+        "tenure": "Jun 2021 - Present (1 year 7 months +)",
+        "position": "Senior Frontend Developer",
+        "technology": "React, Redux, SASS, Jasper reports",
+        "tasks": [
+            "Developed and maintained web application using React and SASS.",
+            "Created reports using jasper reports.",
+            "Constant communication with the client.",
+            "Deployed the client app."
+        ]
+    },
+    {
+        "companySite:": "https://www.visibility.one/",
+        "companyImgUrl": "images/v1.jpg",
+        "companyName": "VisibilityOne",
+        "tenure": "Nov 2019 - Jul 2021 (1 year 9 months)",
+        "position": "Full Stack javascript Developer",
+        "technology": "Nodejs, ExpressJs, MYSQL, AWS library, Angular, SASS",
+        "tasks": [
+            "Developed and maintained web applications using NodeJs, ExpressJs, MYSQL and AWS library forbackend and Angular and SASS for frontend.",
+            "Used 3rd part library like Zoom and Teams api to monitor the quality of video conferencing.",
+            "Constant communication with client to get things going.",
+            "Deployed the api and client applications."
+        ]
+    },
+    {
+        "companySite:": "https://ww4.mewe.org/",
+        "companyImgUrl": "images/coinspect.jpg",
+        "companyName": "CoInspect",
+        "tenure": "Oct 2017 - Aug 2019 (1 year 11 months)",
+        "position": "Senior Frontend Developer",
+        "technology": "Node JS, Express Js, Sequelize, Angular, SASS, React",
+        "tasks": [
+            "Developed and maintained web application using NodeJs, Express js and Sequelize for backend and Angular, SASS and React for Frontend.",
+            "Created JavaScript unit test using Mocha.",
+            "Created reports using Tableau."
+        ]
+    },
+    {
+        "companySite:": "https://www.accenture.com/",
+        "companyImgUrl": "images/acn.png",
+        "companyName": "Accenture",
+        "tenure": "Dec 2014 - Oct 2017 (2 years 11 months",
+        "position": "Software Engr Analyst",
+        "technology": "Technology used: angular, javascript, bootstrap, css, html, svn, maven, jmeter, svn, Eclipse",
+        "tasks": [
+            "Developed and maintained web applications using Java Spring, Angular, Html, Css and Bootstrap.",
+            "Created and executed assembly tests.",
+            "Created tests automation using selenium."
+        ]
+    },
+    {
+        "companySite:": "https://www.ncr.com/",
+        "companyImgUrl": "images/ncr.png",
+        "companyName": "National Cash Register Co",
+        "tenure": "Aug 2010 - Jan 2013 (2 years 6 months)",
+        "position": "Software Development Engr.",
+        "technology": "c++, Java SE, Java EE, Struts, js, css, html, sql, svn, netbeans",
+        "tasks": [
+            "Maintained drivers for atm pc cores using c++.",
+            "Implemented and supported existing applications for scanners using Java SE.",
+            "Supported existing time management system for the NCR cebu office using Java Struts."
+        ]
+    }
+]

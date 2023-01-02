@@ -1,0 +1,27 @@
+@import '../../styles/theme.scss';
+
+.hobbies {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: $mFont;
+    color: $mFontColor;
+    align-items: center;
+
+    .MuiImageList-root {
+        width: 50%;
+
+        span {
+            text-align: center;
+            color: $mColorBold;
+            font-size: 32px;
+            font-weight: bold;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .MuiImageList-root {
+            width: 100%;
+        }
+    }
+}

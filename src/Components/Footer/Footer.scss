@@ -1,0 +1,41 @@
+@import '../../styles/theme.scss';
+
+.footer {
+    background-color: white;
+    height: 50px;
+    border-right: 5px solid $mBorderColor;
+    border-left: 5px solid $mBorderColor;
+    border-bottom: 5px solid $mBorderColor;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: $mFont;
+    color: #4e8358;
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        &__btn {
+            display: flex;
+            flex-direction: row;
+            p {
+                margin: 11px 0 0;
+            }
+
+            .MuiSvgIcon-root {
+                color: $mIconColor;
+            }
+        }
+    }
+
+    .separator {
+        border-right: 1px dotted black;
+        padding-right: 10px;
+    }
+
+    .selected {
+        background-color: #91b297;
+    }
+}

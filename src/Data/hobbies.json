@@ -1,0 +1,32 @@
+[
+    {
+        "img": "images/dogs.jpg",
+        "title": "Dogs",
+        "author": "@Mackie_Garcia",
+        "rows": 2,
+        "cols": 1,
+        "featured": true
+    },
+    {
+        "img": "images/kaori.jpg",
+        "title": "kaori",
+        "author": "@Mackie_Garcia"
+    },
+    {
+        "img": "images/mia.jpg",
+        "title": "Mia",
+        "author": "@Mackie_Garcia"
+    },
+    {
+        "img": "images/riley.jpg",
+        "title": "Riley",
+        "author": "@Mackie_Garcia",
+        "cols": 2
+    },
+    {
+        "img": "images/plants.jpg",
+        "title": "Plants",
+        "author": "@Mackie_Garcia",
+        "cols": 2
+    }
+]

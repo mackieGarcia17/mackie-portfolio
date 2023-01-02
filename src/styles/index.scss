@@ -1,0 +1,17 @@
+@import 'theme.scss';
+
+body {
+    background-color: $mBackgroundColor;
+
+    h2 {
+        color: $mColorBold;
+    }
+
+    h3 {
+        color: black;
+    }
+
+    b {
+        color: $mColorBold;
+    }
+}
