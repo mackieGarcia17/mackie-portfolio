@@ -8,13 +8,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 const Content = (props) => {
     return (
         <div className="content">
-            <Router>
+            {/* <Router>
                 <Routes>
                     <Route exact path="/" element={<Bio />} />
                     <Route path="/resume" element={<Resume />} />
                     <Route path="/hobbies" element={<Hobbies />} />
                 </Routes>
-            </Router>
+            </Router> */}
+            <Bio />
         </div>
     )
 }
